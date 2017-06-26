@@ -6,7 +6,7 @@ THRIFT=docker run -v "${PWD}:/data" $(THRIFT_IMG) thrift
 THRIFT_GEN=-r --gen rb --gen js:node
 THRIFT_CMD=$(THRIFT) -o /data $(THRIFT_GEN)
 
-THRIFT_FILES=multiplication.thrift
+THRIFT_FILES=multiplication.thrift baseservice.thrift
 
 test_ci: thrift
 
