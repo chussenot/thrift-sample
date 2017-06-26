@@ -4,6 +4,7 @@ Just run `make thrift`
 
 @see this quick tutorial http://www.thrift.pl/
 
+- [First paper](https://thrift.apache.org/static/files/thrift-20070401.pdf)
 - [Thrift Apache documentation](https://thrift.apache.org/docs/)
 - [Thrift documentation](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
 - [Thrift concepts](https://thrift.apache.org/docs/concepts)

@@ -3,7 +3,7 @@ THRIFT_VER=latest
 THRIFT_IMG=thrift:$(THRIFT_VER)
 THRIFT=docker run -v "${PWD}:/data" $(THRIFT_IMG) thrift
 
-THRIFT_GEN=-r --gen rb --gen js:node --gen php:server
+THRIFT_GEN=-r --gen rb --gen js:node --gen php:server --gen js
 THRIFT_CMD=$(THRIFT) -o /data $(THRIFT_GEN)
 
 THRIFT_FILES=multiplication.thrift baseservice.thrift
