@@ -1,13 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    concurrent-ruby (1.0.5)
     thrift (0.10.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  concurrent-ruby
   thrift
 
 BUNDLED WITH
-   1.14.3
+   1.14.6

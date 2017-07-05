@@ -8,8 +8,8 @@ class Handler
     @log = {}
   end
 
-  def greeting(english=true)
-    puts "greeting()"
+  def greeting(id)
+    puts "greeting(#{id})"
     "hello world"
   end
 end

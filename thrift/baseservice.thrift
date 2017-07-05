@@ -23,5 +23,5 @@ struct Hello {
 }
 
 service BaseService {
-  Hello greeting(1:bool english)
+  Hello greeting(1:i8 english)  
 }

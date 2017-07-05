@@ -1,3 +1,4 @@
 source "https://rubygems.org"
 
 gem 'thrift'
+gem 'concurrent-ruby', require: 'concurrent'
