@@ -24,7 +24,7 @@ THRIFT_FILES=multiplication.thrift baseservice.thrift
 test_ci: thrift
 
 clean:
-	rm -rf gen-* || true
+	rm -rf build/gen-* || true
 
 thrift:	thrift-image clean $(THRIFT_FILES)
 
