@@ -12,3 +12,10 @@ Just run `make thrift`
 - [Quora](https://www.quora.com/In-simple-terms-what-is-Thrift-software-framework-and-what-does-it-do)
 
 [![Build Status](https://travis-ci.org/chussenot/thrift-sample.svg?branch=master)](https://travis-ci.org/chussenot/thrift-sample)
+
+The code generation exemple will implement a simple multiplication service :
+![Graph](images/multiplication.png)
+
+And an Hello world service :
+
+![Graph](images/base.png)
