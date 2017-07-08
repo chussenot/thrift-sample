@@ -1,1 +1,3 @@
-gen-*/
+build/gen-*/
+build/*
+!build/.gitkeep

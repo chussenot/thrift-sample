@@ -3,8 +3,21 @@ THRIFT_VER=latest
 THRIFT_IMG=thrift:$(THRIFT_VER)
 THRIFT=docker run -v "${PWD}:/data" $(THRIFT_IMG) thrift
 
-THRIFT_GEN=-r --gen rb --gen erl
-THRIFT_CMD=$(THRIFT) -o /data $(THRIFT_GEN)
+THRIFT_GEN=-r --gen rb \
+	--gen erl \
+	--gen cpp \
+	--gen go \
+	--gen dart \
+	--gen gv \
+	--gen dart \
+  --gen hs \
+	--gen py \
+	--gen ocaml \
+	--gen lua \
+	--gen js \
+  --gen json
+
+THRIFT_CMD=$(THRIFT) -o /data/build $(THRIFT_GEN)
 
 THRIFT_FILES=multiplication.thrift baseservice.thrift
 
